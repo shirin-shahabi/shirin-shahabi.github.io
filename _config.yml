@@ -2,27 +2,100 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: Shirin Shahabi
+email: your-email@domain.com
+description: Machine Learning Engineer Portfolio
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://shirin-shahabi.github.io" # the base hostname & protocol for your site
+github_username: shirin-shahabi
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+# Theme settings
+remote_theme: alshedivat/al-folio
+permalink: /blog/:year/:title/
+
+# Plugins
+plugins:
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-twitter-plugin
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Theme appearance
+mode: dark # Valid options: dark, light
+
+# Navigation
+navbar_fixed: true
+footer_fixed: true
+max_width: 800px
+
+# Blog settings
+blog_name: ML Engineering Blog
+blog_description: Thoughts on Machine Learning Engineering and AI
+blog_nav_title: Blog
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 5
+  permalink: /page/:num/
+  title: ':title - page :num'
+  sort_field: date
+  sort_reverse: true
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Jekyll Scholar settings
+scholar:
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+# Social links
+social:
+  - platform: github
+    user_url: "https://github.com/shirin-shahabi"
+    icon: fab fa-github
+  - platform: linkedin
+    user_url: "https://linkedin.com/in/your-linkedin"
+    icon: fab fa-linkedin
+
+# Google Analytics
+google_analytics: UA-XXXXXXXXX
+
+# Dark mode settings
+enable_darkmode: true
+default_mode: dark
+
+# Other settings
+enable_math: true
+enable_tooltips: false
+
+# Theme color customization
+colors:
+  theme: "#64b5f6"
+  link: "#64b5f6"
+  hover: "#90caf9"
+  text: "#e6e6e6"
+  background: "#1a1a1a"
+  code_background: "#2d2d2d"
+  border: "#404040"
+  blockquote: "#9e9e9e"
+
+# GitHub Pages settings
+github_pages:
+  enabled: true
+  source: main
+  branch: main
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -48,8 +121,6 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -88,9 +159,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -377,7 +445,6 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
