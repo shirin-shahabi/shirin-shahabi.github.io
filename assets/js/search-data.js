@@ -54,7 +54,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-have-started-my-full-time-position-at-inference-labs-to-work-on-verifiable-inference",
           title: 'I have started my Full-time position at Inference Labs to work on Verifiable...',
           description: "",
-          section: "News",},{id: "projects-python-tutorial-for-statistical-data-analysis",
+          section: "News",},{id: "projects-local-quantized-deepseek-r1-the-671b-parameter-model",
+          title: 'Local Quantized DeepSeek-R1 the 671B-Parameter Model',
+          description: "Dynamic Quantization Approach for Large Language Models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-python-tutorial-for-statistical-data-analysis",
           title: 'Python Tutorial for Statistical Data Analysis',
           description: "A comprehensive tutorial series on Python for Statistical Data Analysis in Healthcare",
           section: "Projects",handler: () => {
