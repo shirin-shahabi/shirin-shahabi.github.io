@@ -1,24 +1,18 @@
----
+<!-- ---
 layout: page
-title: project 1
+title: Local Quantized DeepSeek-R1 the 671B-Parameter Model
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/McStudio.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    description:
+    img: /assets/img/McStudio.jpg
     ---
 
 <div class="row">
@@ -78,4 +72,15 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
+
+
+Dynamic Quantization: A Tailored Approach
+The Unsloth AI team’s approach involves dynamic quantization, where variable bit precisions are assigned based on the sensitivity of different network components. Key technical insights include:
+
+Selective Precision Assignment:
+The initial dense layers and the down-projection (down_proj) matrices, critical for setting up stable representations and managing the scaling properties in SwiGLU activations, are maintained at higher precisions (4-bit or 6-bit). Conversely, the bulk of the parameters — primarily within the Mixture-of-Experts (MoE) layers, which constitute about 88% of the model — are quantized aggressively to 1.5–2 bits.
+Importance Matrix Calibration:
+Incorporating an importance matrix during the quantization process allows the method to dynamically adjust precision levels per layer. This calibration prevents common pitfalls such as infinite loops or nonsensical outputs that typically arise from uniform quantization.
+Layer-Specific Sensitivity Analysis:
+Technical evaluations indicated that while MoE layers tolerate lower precision, components like the attention mechanisms, embedding layers, and final output heads require more bits to preserve activation distributions. This nuanced strategy ensures that critical paths in the computation graph retain sufficient fidelity.

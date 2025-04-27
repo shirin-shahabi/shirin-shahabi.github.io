@@ -1,81 +1,132 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Python Tutorial for Statistical Data Analysis
+description: A comprehensive tutorial series on Python for Statistical Data Analysis in Healthcare
+img: assets/img/CLI.jpg
 importance: 2
-category: work
+category: teaching
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Python Tutorial for Statistical Data Analysis
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project contains a series of Jupyter notebooks designed to teach Python programming for statistical data analysis in healthcare. The tutorial is structured into 10 sessions, each focusing on different aspects of data analysis and visualization.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Course Overview
+
+This tutorial series covers essential topics in statistical data analysis using Python, with a focus on healthcare applications. The course materials include practical examples, exercises, and real-world datasets to help students develop their data analysis skills.
+
+## Session Materials
+
+### Session 1: Introduction to Python and Data Analysis
+- [Notebook: StatisticsForHelath_Session 1](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHelath_Session%201.ipynb)
+- Basic Python programming concepts
+- Introduction to data structures
+- Working with healthcare datasets
+
+### Session 2: Data Preprocessing and Cleaning
+- [Notebook: StatisticsForHelath_Session 2](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHelath_Session%202.ipynb)
+- Handling missing data
+- Data normalization
+- Feature engineering
+
+### Session 3: Descriptive Statistics
+- [Notebook: StatisticsForHealth_Session 3](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%203.ipynb)
+- Measures of central tendency
+- Measures of dispersion
+- Data visualization basics
+
+### Session 4: Probability Distributions
+- [Notebook: StatisticsForHealth_Session 4](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%204.ipynb)
+- Common probability distributions
+- Statistical tests
+- Hypothesis testing
+
+### Session 5: Correlation and Regression
+- [Notebook: StatisticsForHealth_Session 5](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%205.ipynb)
+- Correlation analysis
+- Linear regression
+- Multiple regression
+
+### Session 6: Classification Methods
+- [Notebook: StatisticsForHealth_Session 6](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%206.ipynb)
+- Logistic regression
+- Decision trees
+- Model evaluation
+
+### Session 7: Clustering Analysis
+- [Notebook: StatisticsForHealth_Session 7](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%207.ipynb)
+- K-means clustering
+- Hierarchical clustering
+- Dimensionality reduction
+
+### Session 8: Time Series Analysis
+- [Notebook: StatisticsForHealth_Session 8](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%208.ipynb)
+- Time series components
+- Forecasting methods
+- Seasonality analysis
+
+### Session 9: Advanced Visualization
+- [Notebook: StatisticsForHealth_Session 9](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%209.ipynb)
+- Interactive plots
+- Dashboard creation
+- Report generation
+
+### Session 10: Project Work
+- [Notebook: StatisticsForHealth_Session 10](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%2010.ipynb)
+- Case studies
+- Final project
+- Best practices
+
+## Resources
+
+The course materials are available on GitHub:
+[Python Tutorial for Ehealth705](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705)
+
+## Datasets Used
+
+- Diabetes dataset
+- Heart disease dataset
+- Insurance dataset
+- Heart disease UCI dataset
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Statistical Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Data Visualization" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Healthcare Analytics" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Key aspects of the tutorial: Statistical Analysis, Data Visualization, and Healthcare Analytics.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Learning Outcomes
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+By the end of this tutorial, students will be able to:
+- Perform comprehensive statistical analysis using Python
+- Create meaningful visualizations of healthcare data
+- Apply appropriate statistical methods to solve real-world problems
+- Develop and evaluate predictive models
+- Present findings in a clear and professional manner
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Prerequisites
 
-{% raw %}
+- Basic understanding of statistics
+- Familiarity with Python programming
+- Interest in healthcare data analysis
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Tools and Libraries
 
-{% endraw %}
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Statsmodels
