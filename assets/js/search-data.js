@@ -43,24 +43,22 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "news-our-39-enhanced-pareto-optimality-with-reinforcement-learning-approach-39-has-been-accepted-to-cors-2025-conference",
+          title: 'Our &amp;#39;Enhanced Pareto Optimality with Reinforcement Learning Approach&amp;#39; has been accepted to CORS...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{id: "news-i-have-started-my-full-time-position-at-inference-labs-to-work-on-verifiable-inference",
           title: 'I have started my Full-time position at Inference Labs to work on Verifiable...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+          section: "News",},{id: "news-i-have-started-my-full-time-position-at-inference-labs-to-work-on-verifiable-inference",
+          title: 'I have started my Full-time position at Inference Labs to work on Verifiable...',
+          description: "",
+          section: "News",},{id: "projects-python-tutorial-for-statistical-data-analysis",
+          title: 'Python Tutorial for Statistical Data Analysis',
+          description: "A comprehensive tutorial series on Python for Statistical Data Analysis in Healthcare",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-github',
         title: 'GitHub',
