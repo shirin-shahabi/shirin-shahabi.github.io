@@ -1,200 +1,213 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Shirin Shahabi",
+    "phone": "365-883-4747",
+    "email": "shirin.shahabinejad@gmail.com",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Toronto",
+      "region": "ON",
+      "countryCode": "CA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shirin-shahabinejad"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/shirin-shahabi"
+      },
+      {
+        "network": "Personal Website",
+        "url": "https://shirin-shahabi.github.io/"
       }
+    ]
+  },
+  "profile": {
+    "summary": [
+      "Machine Learning Engineer with 4 years of hands-on experience in the Finance and Tech industries with an MBA (Finance) and MSc in Computer Science. Proven track record in delivering end-to-end GenAI solutions, driving data-driven decision-making, and fostering cross-functional collaboration. Expert in Verifiable AI Inference, Reinforcement Learning, Agentic AI, and Compression in GenAI Solutions. Proficient in advanced techniques including Retrieval-Augmented Generation (RAG) systems, Reinforcement Learning with Human Feedback (RLHF), Group Relative Policy Optimization (GRPO), Multi-Context Protocol (MCP) development, and Supervised Fine-Tuning (SFT).",
+      "Technical expertise in AWS (Lambda, EC2, SageMaker) with Cloud Practitioner certification, and GCP (Vertex AI, Kubernetes, Docker, VM instances)."
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "company": "Inference Labs Inc (Verifiable AI-Inference)",
+      "position": "Machine Learning Engineer",
+      "website": "https://www.linkedin.com/company/inferencelabsinc/",
+      "location": "Hamilton, Canada",
+      "startDate": "2024-05",
+      "endDate": "Present",
+      "highlights": [
+        "Led the development of verifiable LLM on Qwen 2.5 with no overhead of computation and designed Automated testing using Multi Context Protocol (MCP) sampling.",
+        "Led the Quantization and post-training team and Infrastructure on Open-source LLM Models.",
+        "Developed the first Verifiable Agentic AI with proof of inference, enabling verifiable model predictions to meet legal and insurance liability requirements.",
+        "Engineered a comprehensive automated SR&ED auditing documentation pipeline using Google's Flan T5, seamlessly integrating GitHub, Slack messages, and Jira to streamline employee documentation.",
+        "Designed and implemented a ranking system based on DeepFM and BERT, utilizing Reinforcement Learning with Human Feedback (RLHF) and Direct Preference Optimization (DPO), containerized with Docker.",
+        "Developed Autonomous Index Agent with optimizing liquidity and slippage.",
+        "Improved inference time by 23% by developing a Commit-Reveal strategy on Kubernetes using GCP instances.",
+        "Developed Cosmos SDK modules for decentralized AI inference platforms.",
+        "Developed a Retrieval-Augmented Generation (RAG) system using LLaMA 3 for the R&D team specializing in Zero-Knowledge Cryptography deployed on Graph VertexAI.",
+        "Developed Verifiable Ray-tracing physical simulation based on Nvidia Warp, Google DeepMind Mujoco, and Autodesk XLB frameworks.",
+        "Applied structured pruning and quantization techniques on time series prediction models using NVIDIA's pruning methods for 8-billion parameter LLaMA and ResNet models without loss of accuracy."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "company": "McMaster University",
+      "position": "Machine Learning Developer",
+      "website": "https://www.linkedin.com/school/degroote-school-of-business/",
+      "location": "Hamilton, Canada",
+      "startDate": "2022-12",
+      "endDate": "2024-09",
+      "highlights": [
+        "Developed an Trading Bot, with enhanced risk mitigation strategies to prevent market crashes, leveraging FastDQN reinforcement learning to outperform human traders by 185%.",
+        "Implemented multi-objective bi-strategy West America's rail-highway transportation optimization on high-performance computing cluster using Gurobi multi-threading and shell scripting focusing on class-based Supply Chain Management.",
+        "Implemented a multi-objective bi-strategy optimization model using hierarchical reinforcement learning, improving conventional Multi-Armed Bandit problems by 13% with Meta's PEARL framework.",
+        "Instructed 'Statistical Data Analysis in Healthcare' using Python (EHealth 705), with materials available at: github.com/shirin-shahabi/PythonTutorial_Ehealth705."
+      ]
+    },
+    {
+      "company": "Nobitex",
+      "position": "Data Scientist",
+      "website": "https://www.linkedin.com/company/nobitexmarket/",
+      "location": "Remote",
+      "startDate": "2022-02",
+      "endDate": "2023-01",
+      "highlights": [
+        "Developed a scalable, robust, and interpretable ensemble tree-based algorithm for clustering over 4 million customers by leveraging Spark for distributed transaction data processing, resulting in increasing MAU from 4M to 8.5M in under a year.",
+        "Led cross-team collaboration with the Product Team to design an end-to-end Marketing Data Modeling and ETL Pipeline using Django and ORM Design.",
+        "Defined +50 financial KPIs and identified company priorities and targeted measures for strategic growth.",
+        "Utilized Web Engage for Customer Journey Mapping, achieving a 35% increase in conversion rate.",
+        "Conducted market research and customer survey analysis, driving a 10% increase in user engagement.",
+        "Collaborated on Power BI and EDA Course for Managers, promoting dashboard adoption for data-driven decision-making.",
+        "Conducted Instagram and Twitter sentiment analysis, extracting key insights to inform marketing strategies, resulting in a 30% increase in retention rate."
+      ]
+    },
+    {
+      "company": "Tourism Bank",
+      "position": "Financial Analyst",
+      "website": "https://www.linkedin.com/company/tourism-bank/",
+      "location": "Tehran, Iran",
+      "startDate": "2022-01",
+      "endDate": "2022-02",
+      "highlights": [
+        "Designed a comprehensive business plan for a local +12 million dollar hotel construction project.",
+        "Conducted cash flow projections and performed a feasibility study."
+      ]
+    },
+    {
+      "company": "Rocket Internet (SnappMarket)",
+      "position": "Data Analyst",
+      "website": "https://www.linkedin.com/company/snappgrocery/",
+      "location": "Remote, Canada",
+      "startDate": "2020-10",
+      "endDate": "2021-12",
+      "highlights": [
+        "Contributed to a visionary product with over $100 million in funding for a fully automated shopping experience (Low-Cost Amazon Go), emphasizing indoor location tracking, in collaboration with Rocket Internet.",
+        "Optimized inventory reordering for 15 hypermarkets with a fully automated algorithm for +8,000 SKUs.",
+        "Collaborated on loyalty, fraud detection, retention, targeted marketing, and churn prediction programs.",
+        "Mentored two interns in the Data Team, now successful Data Scientists one pursuing PhD in University of Michigan and the other doing Master of Computer Science at Waterloo University.",
+        "Delivered +100 optimized SQL queries, benefiting Marketing, Operations, and Finance teams.",
+        "Established real-time operational KPIs with automated email reports for timely insights, ensuring data accuracy.",
+        "Defined packaging strategies and presented enhanced user experiences, resulting in a direct 10% increase in revenue."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "McMaster University",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2022-12",
+      "endDate": "2024-12",
+      "gpa": "4.0/4.0",
+      "location": "Hamilton, Canada",
+      "highlights": [
+        "Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.",
+        "Member of Degroote Finance and Investment Council (DFIC Club) - Quantitative Finance Department.",
+        "Completed the Vector Institute 2024 Deep Learning and Reinforcement Learning Summer School."
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "Sharif University",
+      "area": "Finance",
+      "studyType": "MBA",
+      "startDate": "2021-10",
+      "endDate": "2022-12",
+      "gpa": "3.8/4.0",
+      "location": "Tehran, Iran",
+      "highlights": [
+        "Awards: Merit-based Admission by the Office of Exceptional Talents."
+      ]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "institution": "Sharif University",
+      "area": "Industrial Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2017-10",
+      "endDate": "2021-10",
+      "gpa": "3.7/4.0",
+      "location": "Tehran, Iran",
+      "highlights": [
+        "Awards: Member of National Elite Foundation (INEF)."
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming Languages",
+      "keywords": ["Python", "R", "SQL (MySQL, Postgres, MongoDB)"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Cloud Platforms",
+      "keywords": ["Google Cloud Platform (Kubernetes, Vertex AI Engine)", "AWS (Lambda, EC2, SageMaker)"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Machine Learning Frameworks",
+      "keywords": ["TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face"]
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "AI and NLP Tools",
+      "keywords": ["LangChain", "NLTK", "SpaCy", "ONNX"]
+    },
+    {
+      "name": "MLOps and DevOps Tools",
+      "keywords": ["Docker", "Git", "CI/CD (Argo workflow, Redis, Spark)"]
+    },
+    {
+      "name": "Web and API Technologies",
+      "keywords": ["REST APIs", "Streamlit", "Shiny App"]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": ["ETL Pipeline Development", "Data Modeling", "Data Streaming", "Distributed Computing"]
+    },
+    {
+      "name": "Expertise",
+      "keywords": [
+        "Reinforcement Learning",
+        "Large Language Models (LLMs)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Natural Language Processing (NLP)",
+        "Inference Engineering",
+        "Compression Techniques",
+        "Pre-training and Fine-Tuning",
+        "Predictive Modeling",
+        "Statistical Analysis",
+        "Fraud Detection",
+        "Verifiable Inference",
+        "Agentic AI"
+      ]
+    },
+    {
+      "name": "Operation Research",
+      "keywords": [
+        "Mathematical Optimization",
+        "Integer Programming",
+        "Stochastic Modeling",
+        "Discrete-event Simulation",
+        "Meta-heuristic Search Algorithms",
+        "Process Mining"
+      ]
     }
   ]
 }
