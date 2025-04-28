@@ -19,13 +19,13 @@ This tutorial series covers essential topics in statistical data analysis using 
 ## Session Materials
 
 ### Session 1: Introduction to Python and Data Analysis
-- [Notebook: StatisticsForHelath_Session 1](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHelath_Session%201.ipynb)
+- [Notebook: StatisticsForHealth_Session 1](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%201.ipynb)
 - Basic Python programming concepts
 - Introduction to data structures
 - Working with healthcare datasets
 
 ### Session 2: Data Preprocessing and Cleaning
-- [Notebook: StatisticsForHelath_Session 2](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHelath_Session%202.ipynb)
+- [Notebook: StatisticsForHealth_Session 2](https://github.com/shirin-shahabi/PythonTutorial_Ehealth705/blob/main/StatisticsForHealth_Session%202.ipynb)
 - Handling missing data
 - Data normalization
 - Feature engineering
@@ -92,17 +92,11 @@ The course materials are available on GitHub:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Statistical Analysis" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Data Visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Healthcare Analytics" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CLI.jpg" title="Statistical Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Key aspects of the tutorial: Statistical Analysis, Data Visualization, and Healthcare Analytics.
+    Statistical Analysis in Healthcare Data; Overview of Centeral Limit Theorem(CLI).
 </div>
 
 ## Learning Outcomes
