@@ -47,7 +47,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-successfully-defended-my-master-s-thesis-at-mcmaster-university-focusing-on-multi-objective-bi-level-hierarchical-reinforcement-learning-this-work-enhances-traditional-stochastic-optimization-and-multi-armed-bandit-approaches-to-offer-interpretable-decision-making-frameworks",
           title: 'I successfully defended my Master’s thesis at McMaster University, focusing on “Multi-Objective Bi-Level...',
           description: "",
-          section: "News",},{id: "news-our-paper-titled-enhanced-pareto-optimality-with-reinforcement-learning-approach-has-been-accepted-for-presentation-at-the-cors-2025-conference-the-conference-will-be-held-in-edmonton-alberta-from-june-9-11-2025-this-work-represents-a-significant-advancement-in-the-field-of-optimization-and-machine-learning-combining-reinforcement-learning-techniques-with-pareto-optimality-to-solve-complex-multi-objective-optimization-problems-looking-forward-to-presenting-our-work-and-engaging-with-fellow-researchers-at-this-prestigious-conference",
+          section: "News",},{id: "news-our-paper-titled-enhanced-pareto-optimality-with-reinforcement-learning-approach-has-been-accepted-for-presentation-at-the-cors-2025-conference-this-work-represents-a-significant-advancement-in-the-field-of-optimization-and-machine-learning-combining-reinforcement-learning-techniques-with-pareto-optimality-to-solve-complex-multi-objective-optimization-problems",
           title: 'Our paper titled “Enhanced Pareto Optimality with Reinforcement Learning Approach” has been accepted...',
           description: "",
           section: "News",},{id: "projects-local-quantized-deepseek-r1-the-671b-parameter-model",
