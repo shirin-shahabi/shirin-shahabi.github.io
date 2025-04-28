@@ -38,12 +38,10 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-accepted-to-mcmaster-university-under-supervison-of-prof-manish-verma-with-excellence-scholarship",
+          title: 'I accepted to McMaster University under Supervison of Prof. Manish Verma with Excellence...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-39-enhanced-pareto-optimality-with-reinforcement-learning-approach-39-has-been-accepted-to-cors-2025-conference",
+          section: "News",},{id: "news-our-39-enhanced-pareto-optimality-with-reinforcement-learning-approach-39-has-been-accepted-to-cors-2025-conference",
           title: 'Our &amp;#39;Enhanced Pareto Optimality with Reinforcement Learning Approach&amp;#39; has been accepted to CORS...',
           description: "",
           section: "News",handler: () => {
