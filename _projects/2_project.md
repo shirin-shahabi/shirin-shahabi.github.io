@@ -96,7 +96,7 @@ The course materials are available on GitHub:
     </div>
 </div>
 <div class="caption">
-    Statistical Analysis in Healthcare Data; Overview of Centeral Limit Theorem(CLI).
+    Statistical Analysis in Healthcare Data; Overview of Central Limit Theorem (CLT).
 </div>
 
 ## Learning Outcomes
