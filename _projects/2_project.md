@@ -4,7 +4,7 @@ title: Python Tutorial for Statistical Data Analysis
 description: A comprehensive tutorial series on Python for Statistical Data Analysis in Healthcare
 img: assets/img/CLI.jpg
 importance: 2
-category: teaching
+category: work
 giscus_comments: true
 ---
 
