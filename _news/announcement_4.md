@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-04-01 07:59:00-0400
+date: 2024-12-20 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I have started my Full-time position at Inference Labs to work on Verifiable Inference.
+I successfully defended my Master's thesis at McMaster University, focusing on "Multi-Objective Bi-Level Hierarchical Reinforcement Learning." This work enhances traditional stochastic optimization and multi-armed bandit approaches to offer interpretable decision-making frameworks. 

@@ -28,14 +28,105 @@ latest_posts:
 ---
 
 
+Hi! I'm Shirin, a Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!
+
+* Verifiable Inference and Privacy preserving 
+* Compression, Optimization and a -bit- Multi modal Inference Quantization 
+* Reinforcement learning with human feedback
+* Agentic Development at scale
+
+I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!
 
 
-## AI Engineer | Finance & Tech Industries
+### Education
 
-* 🌍  I'm based in Toronto, Canada
-* 🚀  I'm currently working on [Security in AI Systems and Verifiable Inference](http://inferencelabs.com/)
-* 🤝  I'm open to collaborating on AI Agents, Verifiable Inference, Post-training Optimization and Reinforcement Learning
-* 💼  4+ years of experience across Finance and Tech industries
+<div class="education-section">
+  <div class="education-item">
+    <div class="education-header">
+      <h4>M.Sc. Computer Science</h4>
+      <p class="education-date">Dec 2022 - Dec 2024</p>
+    </div>
+    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University; GPA: 4 / 4 - Full Scholarship and Fellowship funds</a></p>
+    <ul class="education-details">
+      <li>Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.</li>
+      <li>Member of <a href="https://www.degrootefinance.ca/">Degroote finance and investment council (DFIC Club)</a> - Quantitative Finance Department.</li>
+      <li>Completed the <a href="https://vectorinstitute.ai/">Vector Institute</a> 2024 Deep Learning and Reinforcement Learning Summer School.</li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <div class="education-header">
+      <h4>MBA, Finance</h4>
+      <p class="education-date">Oct 2021 - Dec 2022</p>
+    </div>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University; GPA: 3.8 / 4</a></p>
+    <ul class="education-details">
+      <li>Awards: Merit-based Admission by the Office of Exceptional Talents.</li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <div class="education-header">
+      <h4>B.Sc. Industrial Engineering</h4>
+      <p class="education-date">Oct 2017 - Oct 2021</p>
+    </div>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University; GPA: 3.7 / 4</a></p>
+    <ul class="education-details">
+      <li>Awards: Member of National Elite Foundation (INEF).</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.education-section {
+  margin-bottom: 20px;
+}
+.education-item {
+  margin-bottom: 15px;
+}
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.education-header h4 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.education-date {
+  color: #666;
+  font-style: italic;
+}
+.education-institution {
+  margin-top: 0;
+}
+.education-details {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+.education-details li {
+  margin-bottom: 3px;
+}
+</style>
+
+### Featured Projects
+
+#### [Inference Labs](https://github.com/inference-labs-inc) - Verifiable AI & LLMs
+- **Verifiable AI Agent** - Developed the first Verifiable AI Agent by reducing overhead from 1000x to 8x
+- **Model-Agnostic Proof System** - Designed a scalable proof of inference system leveraging Agentic testing and Probabilistic proofs with no computational overhead using JIT Design pattern and Redis Caching system.
+- **LLM Optimization** - Led model optimization initiatives for faster inference and smaller footprint models
+- **RLHF-Based Ranking** - Implemented sophisticated ranking profiles using Reinforcement Learning with Human Feedback (RLHF) and Group Relative Policy Optimization (GRPO)
+
+#### [Nobitex](https://github.com/nobitex) - Data Science & Finance
+- **Customer Clustering at Scale** - Developed scalable, ensemble tree-based algorithm leveraging Spark for processing 4M+ customer transactions, driving MAU growth to 8.5M within one year
+- **Chain Fraud Detection Dashboard** - Built real-time pipeline and analytics dashboard for blockchain transaction monitoring
+- **Marketing Data Pipeline** - Led cross-team collaboration to design an end-to-end Marketing Data Modeling ETL Pipeline with ERD system design
+
+#### [SnappMarket](https://github.com/snappmarket) - Retail Tech & Optimization
+- **Autonomous Inventory System** - Developed scalable inventory reordering system for 15 hypermarkets with +8,000 SKUs
+- **Automated Shopping Experience** - Contributed to a $100M funded project for a fully automated shopping experience (Low-Cost Amazon Go), implementing indoor location tracking in collaboration with Rocket Internet
+- **Operational Analytics** - Established real-time operational KPIs with automated reporting systems, ensuring data accuracy and driving strategic decisions
+
 
 ### Skills
 
@@ -56,107 +147,15 @@ latest_posts:
 <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="36" height="36" alt="Kubernetes" /></a>
 </p>
 
-### Featured Projects
 
-#### [Inference Labs](https://github.com/inference-labs-inc) - Verifiable AI & LLMs
-- **Verifiable AI Agent** - Developed the first Verifiable AI Agent by reducing overhead from 1000x to 8x
-- **Model-Agnostic Proof System** - Designed a scalable proof of inference system leveraging Agentic testing and Probabilistic proofs with no computational overhead using JIT Design pattern and Redis Caching system.
-- **LLM Optimization** - Led model optimization initiatives for faster inference and smaller footprint models
-- **RLHF-Based Ranking** - Implemented sophisticated ranking profiles using Reinforcement Learning with Human Feedback (RLHF) and Group Relative Policy Optimization (GRPO)
 
-#### [Nobitex](https://github.com/nobitex) - Data Science & Finance
-- **Customer Clustering at Scale** - Developed scalable, ensemble tree-based algorithm leveraging Spark for processing 4M+ customer transactions, driving MAU growth to 8.5M within one year
-- **Chain Fraud Detection Dashboard** - Built real-time pipeline and analytics dashboard for blockchain transaction monitoring
-- **Marketing Data Pipeline** - Led cross-team collaboration to design an end-to-end Marketing Data Modeling ETL Pipeline with ERD system design
-
-#### [SnappMarket](https://github.com/snappmarket) - Retail Tech & Optimization
-- **Autonomous Inventory System** - Developed scalable inventory reordering system for 15 hypermarkets with +8,000 SKUs
-- **Automated Shopping Experience** - Contributed to a $100M funded project for a fully automated shopping experience (Low-Cost Amazon Go), implementing indoor location tracking in collaboration with Rocket Internet
-- **Operational Analytics** - Established real-time operational KPIs with automated reporting systems, ensuring data accuracy and driving strategic decisions
-
-<!-- AlphaGo Feature Section -->
-<div style="margin: 30px 0; background-color: #001333; color: white; border-radius: 10px; overflow: hidden;">
-  <!-- Header with icon -->
-  <div style="display: flex; align-items: center; padding: 15px; cursor: pointer;" onclick="toggleAlphaGoContent()">
-    <div style="margin-right: 15px;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="10"></circle>
-        <path d="M12 2a4.5 4.5 0 0 0 0 9 4.5 4.5 0 0 1 0 9"></path>
-        <path d="M6 14a6 6 0 0 0 12 0"></path>
-      </svg>
-    </div>
-    <div>
-      <h3 style="margin: 0; font-size: 20px;">The AlphaGo Moment</h3>
-      <p style="margin: 5px 0 0 0; font-size: 14px;">Click to learn why it changed everything</p>
-    </div>
-  </div>
-  
-  <!-- Collapsible content -->
-  <div id="alphaGoContent" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;">
-    <div style="padding: 0 20px 20px; max-height: 250px; overflow-y: auto;">
-      <p>AlphaGo's victory over Lee Sedol in 2016 was the moment that many AI researchers realized "the game is over" - a watershed event demonstrating that AI could master tasks requiring intuition and creativity once thought uniquely human.</p>
-      
-      <p>What made this victory remarkable:</p>
-      <ul>
-        <li>AlphaGo made moves that human experts initially considered mistakes but were actually brilliant long-term strategies</li>
-        <li>It showed that deep learning could surpass thousands of years of accumulated human knowledge</li>
-        <li>"Move 37" in Game 2 was so innovative that experts gave it a 1 in 10,000 chance of being played by a human</li>
-      </ul>
-      
-      <p>Later, AlphaZero took this further by learning purely through self-play, without human gameplay data, demonstrating a form of emergent intelligence that has profound implications for AI development across all domains.</p>
-      
-      <div style="text-align: center; margin-top: 15px;">
-        <button onclick="window.open('https://deepmind.google/technologies/alphago/', '_blank')" style="background-color: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer;">Learn More</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  function toggleAlphaGoContent() {
-    const content = document.getElementById('alphaGoContent');
-    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
-      content.style.maxHeight = '300px';
-    } else {
-      content.style.maxHeight = '0px';
-    }
-  }
-</script>
 
 <details>
-  <summary style="background-color: #001333; color: white; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold;">▼ KNOW MORE</summary>
+  <summary style="background-color: #001333; color: white; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold;"> > KNOW MORE</summary>
   
   <div style="padding: 15px; border: 1px solid #ddd; border-top: none; border-radius: 0 0 5px 5px;">
-    <h3>Current Focus</h3>
-    <ul>
-      <li>Specializing in <strong>Post-training Optimization in GenAI Inference Systems</strong></li>
-      <li>Focused research on <a href="http://inferencelabs.com/">Security in AI Systems and Verifiable Inference</a></li>
-      <li>Applying advanced Reinforcement Learning techniques to enhance model performance</li>
-      <li>Developing methods to reduce computational overhead while maintaining inference quality</li>
-    </ul>
-
-    <h3>Research Highlight: The AlphaZero Moment</h3>
-    <p>AlphaZero revolutionized chess by demonstrating that conventional wisdom could be challenged through deep learning. In 2017, it famously defeated Stockfish by making moves that human grandmasters initially considered mistakes but were actually brilliant long-term strategies.</p>
-    
-    <h3>Education</h3>
-    <ul>
-      <li><strong>McMaster University</strong> - M.Sc. Computer Science (Dec 2022 - Dec 2024)
-        <ul>
-          <li>Member of <a href="https://www.degrootefinance.ca/">Degroote Finance and Investment Council (DFIC Club)</a> - Quantitative Finance</li>
-        </ul>
-      </li>
-      <li><strong>Sharif University</strong> - MBA, Finance (Oct 2021 - Dec 2022)</li>
-      <li><strong>Sharif University</strong> - B.Sc. System Engineering (Oct 2017 - Oct 2021)</li>
-    </ul>
-    
-    <h3>Industry Experience</h3>
-    <ul>
-      <li>4+ years across Finance and Tech industries</li>
-      <li>Specialized in AI system optimization and reinforcement learning applications</li>
-      <li>Built production-grade machine learning pipelines and inference systems</li>
-    </ul>
 
     <h3>About Me</h3>
-    <p>I enjoy Tech News, Business Review, Movies, Chess, Pottery, Hiking, Meeting new people and experiencing new cultures :)</p>
+    <p>I enjoy Tech News, Business Review, Movies, Chess, Pottery, Hiking, Blockchain technology, Meeting new people and experiencing new cultures :</p>
   </div>
 </details>
