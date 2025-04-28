@@ -33,8 +33,8 @@ latest_posts:
   <p>A Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!</p>
 
   <ul class="feature-list">
-    <li>Verifiable Inference and Privacy preserving</li>
-    <li>Compression, Optimization and a -bit- Multi modal Inference Quantization</li>
+    <li>Verifiable Inference and Privacy Preserving ML</li>
+    <li>Compression, Optimization and a -bit- Inference Quantization</li>
     <li>Reinforcement learning with human feedback</li>
     <li>Agentic Development at scale</li>
   </ul>
@@ -129,7 +129,9 @@ latest_posts:
   
   <div style="padding: 15px; border: 1px solid #ddd; border-top: none; border-radius: 0 0 5px 5px;">
     <h3>About Me</h3>
-    <p>I enjoy Tech News, Business Review, Movies, Chess, Pottery, Hiking, Blockchain technology, Meeting new people and experiencing new cultures :)</p>
+
+   <p>I enjoy 📰 Tech News, 📈 Business Review, 🎬 Movies, ♟️ Chess, 🎨 Pottery, 🥾 Hiking, 🔗 Blockchain technology, 👥 Meeting new people and 🌎 experiencing new cultures!</p>
+
   </div>
 </details>
 
@@ -195,13 +197,3 @@ latest_posts:
   margin-bottom: 5px;
 }
 </style>
-
-<details>
-  <summary style="background-color: #001333; color: white; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold;"> > KNOW MORE</summary>
-  
-  <div style="padding: 15px; border: 1px solid #ddd; border-top: none; border-radius: 0 0 5px 5px;">
-
-    <h3>About Me</h3>
-    <p>I enjoy Tech News, Business Review, Movies, Chess, Pottery, Hiking, Blockchain technology, Meeting new people and experiencing new cultures :</p>
-  </div>
-</details>
