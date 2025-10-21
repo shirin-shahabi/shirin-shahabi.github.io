@@ -29,20 +29,6 @@ latest_posts:
 <div style="margin-top: 40px;"></div>
 
 <div class="section-container">
-  <h2 style="font-size: 2.5em;"><strong>Shirin Shahabi</strong></h2>
-  <p>I am a Machine learning Researcher at Inference Labs, working on distributed verified inference. I have been working on Reinforcement Learning applications for the past 4 years, but currently I am more focused on Inference verification and Post training!</p>
-
-  <ul class="feature-list">
-    <li>Verifiable Inference and Privacy Preserving ML</li>
-    <li>Compression, Optimization and a -bit- Inference Quantization</li>
-    <li>Reinforcement learning and Finetuning</li>
-    <li>Distributed inference</li>
-  </ul>
-
-  <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
-</div>
-
-<div class="section-container">
   <h3 class="section-title">Education</h3>
 
   <div class="education-item">
@@ -127,7 +113,7 @@ latest_posts:
 }
 
 body {
-  padding-left: 3px !important;
-  padding-right: 3px !important;
+  padding-left: 1px !important;
+  padding-right: 1px !important;
 }
 </style>
