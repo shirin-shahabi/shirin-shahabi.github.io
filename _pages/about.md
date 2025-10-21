@@ -28,7 +28,7 @@ latest_posts:
 
 <div class="section-container">
   <h2><strong>Shirin Shahabi</strong></h2>
-  <p>A Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!</p>
+  <p>I am a Machine learning Researcher at Inference Labs, working on distributed verified inference. I have been working on Reinforcement Learning applications for the past 4 years, but currently I am more focused on Inference verification and Post training!</p>
 
   <ul class="feature-list">
     <li>Verifiable Inference and Privacy Preserving ML</li>
@@ -40,6 +40,8 @@ latest_posts:
   <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
 </div>
 
+<div style="margin-top: 40px;"></div>
+
 <div class="section-container">
   <h3 class="section-title">Education</h3>
 
@@ -47,8 +49,8 @@ latest_posts:
     <h4><strong>M.Sc. Computer Science</strong></h4>
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
     <ul class="education-details">
-      <li><strong>Thesis:</strong> <span style="color: #666;">Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy</span></li>
-      <li><strong> member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
+      <li><strong>Thesis:</strong> <span style="color: #666;">Multi-Objective Network Stochastic Weight Optimization leveraging hierarchical reinforcement learning.</span></li>
+      <li><strong>Member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
       <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
     </ul>
   </div>
@@ -125,7 +127,7 @@ latest_posts:
 }
 
 body {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 </style>
