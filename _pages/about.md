@@ -48,7 +48,7 @@ latest_posts:
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
     <ul class="education-details">
       <li><strong>Thesis:</strong> <span style="color: #666;">Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy</span></li>
-      <li><strong>Half member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
+      <li><strong> member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
       <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
     </ul>
   </div>
@@ -119,13 +119,3 @@ latest_posts:
   </p>
 </div>
 
-<style>
-body {
-  padding-left: 15px !important;
-  padding-right: 15px !important;
-}
-
-.section-container {
-  margin-bottom: 8px;
-}
-</style>
