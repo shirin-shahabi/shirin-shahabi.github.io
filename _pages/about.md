@@ -26,8 +26,10 @@ latest_posts:
   limit: 2 # leave blank to include all the blog posts
 ---
 
+<div style="margin-top: 40px;"></div>
+
 <div class="section-container">
-  <h2><strong>Shirin Shahabi</strong></h2>
+  <h2 style="font-size: 2.5em;"><strong>Shirin Shahabi</strong></h2>
   <p>I am a Machine learning Researcher at Inference Labs, working on distributed verified inference. I have been working on Reinforcement Learning applications for the past 4 years, but currently I am more focused on Inference verification and Post training!</p>
 
   <ul class="feature-list">
@@ -39,8 +41,6 @@ latest_posts:
 
   <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
 </div>
-
-<div style="margin-top: 40px;"></div>
 
 <div class="section-container">
   <h3 class="section-title">Education</h3>
@@ -127,7 +127,7 @@ latest_posts:
 }
 
 body {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
 }
 </style>
