@@ -126,6 +126,20 @@ latest_posts:
 </div>
 
 <style>
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container, .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .two-column-layout {
   display: flex;
   gap: 30px;
