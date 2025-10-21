@@ -42,6 +42,8 @@ latest_posts:
   <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
 </div>
 
+<div style="margin-top: 60px;"></div>
+
 <div class="section-container">
   <h3 class="section-title">Education</h3>
 
@@ -127,7 +129,7 @@ latest_posts:
 }
 
 body {
-  padding-left: 1px !important;
-  padding-right: 1px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 </style>
