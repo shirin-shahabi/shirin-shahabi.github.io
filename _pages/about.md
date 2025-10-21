@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
+    <p><a href="/cv/" style="color: #007bff; text-decoration: none;">📄 Resume</a></p>
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -126,10 +127,5 @@ latest_posts:
 <style>
 .profile img {
   margin-right: 2cm !important;
-}
-
-body {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
 }
 </style>
