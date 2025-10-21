@@ -48,10 +48,11 @@ latest_posts:
   <div class="project-item">
     <h4><a href="https://github.com/inference-labs-inc">Inference Labs</a> - Verifiable AI & LLMs</h4>
     <ul class="project-details">
-      <li><strong>Verifiable AI Agent</strong> - Developed the first Verifiable AI Agent by reducing overhead from 1000x to 8x</li>
-      <li><strong>Model-Agnostic Proof System</strong> - Designed a scalable proof of inference system leveraging Agentic testing and Probabilistic proofs with no computational overhead using JIT Design pattern and Redis Caching system.</li>
-      <li><strong>LLM Optimization</strong> - Led model optimization initiatives for faster inference and smaller footprint models</li>
-      <li><strong>RLHF-Based Ranking</strong> - Implemented sophisticated ranking profiles using Reinforcement Learning with Human Feedback (RLHF) and Group Relative Policy Optimization (GRPO)</li>
+      <li><strong>Distributed Proving Framework</strong> - Contributed as a core researcher to DSperse - open-source framework for distributed, verifiable inference.</li>
+      <li><strong>Quantization and Post-training</strong> - Contributed to an open-source ZK toolkit for quantization and post-training methods.</li>
+      <li><strong>Verifiable AI Agent</strong> - Developed the first verifiable Doom agent, reducing overhead from 1000x to 8x.</li>
+      <li><strong>Modular Proving Framework</strong> - Designed a scalable proof-of-inference framework leveraging agentic testing and probabilistic proofs, with no computational overhead, using a JIT design pattern and caching system.</li>
+      <li><strong>DPO-Based Ranking</strong> - Implemented ranking profiles using Reinforcement Learning benchmarking DPO, Group Relative Policy Optimization (GRPO) and Reinforcement Learning Teacher (RLT).</li>
     </ul>
   </div>
 
