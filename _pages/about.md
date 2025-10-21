@@ -48,7 +48,7 @@ latest_posts:
   <div class="project-item">
     <h4><a href="https://github.com/inference-labs-inc">Inference Labs</a> - Verifiable AI & LLMs</h4>
     <ul class="project-details">
-      <li><strong>Distributed Proving Framework</strong> - Contributed as a core researcher to DSperse - open-source framework for distributed, verifiable inference.</li>
+      <li><strong>Distributed Proving Framework</strong> - Contributed as a core researcher to DSperse - open-source framework for distributed, verifiable inference. [<a href="https://arxiv.org/abs/2508.06972">paper</a>] [<a href="https://github.com/inference-labs-inc/dsperse">sourcecode</a>]</li>
       <li><strong>Quantization and Post-training</strong> - Contributed to an open-source ZK toolkit for quantization and post-training methods.</li>
       <li><strong>Verifiable AI Agent</strong> - Developed the first verifiable Doom agent, reducing overhead from 1000x to 8x.</li>
       <li><strong>Modular Proving Framework</strong> - Designed a scalable proof-of-inference framework leveraging agentic testing and probabilistic proofs, with no computational overhead, using a JIT design pattern and caching system.</li>
