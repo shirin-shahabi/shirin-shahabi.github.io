@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 **Accepted to RL Residency Program at Prime Intellect!** Honored to be selected for [Prime Intellect](https://docs.primeintellect.ai/)'s prestigious Reinforcement Learning Residency program.
+ **Accepted to RL Residency Program at Prime Intellect!** Honored to be selected for [Prime Intellect](https://docs.primeintellect.ai/)'s prestigious Reinforcement Learning Residency program.

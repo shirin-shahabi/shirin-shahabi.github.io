@@ -5,9 +5,9 @@ permalink: /
 subtitle:
 
 profile:
-  align: right
+  align: left
   image: prof_pic1.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
@@ -33,8 +33,8 @@ latest_posts:
   <ul class="feature-list">
     <li>Verifiable Inference and Privacy Preserving ML</li>
     <li>Compression, Optimization and a -bit- Inference Quantization</li>
-    <li>Reinforcement learning with human feedback</li>
-    <li>Agentic Development at scale</li>
+    <li>Reinforcement learning and Finetuning</li>
+    <li>Distributed inference</li>
   </ul>
 
   <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
@@ -44,7 +44,7 @@ latest_posts:
   <h3 class="section-title">Education</h3>
 
   <div class="education-item">
-    <h4>M.Sc. Computational Science</h4>
+    <h4>M.Sc. Computer Science</h4>
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
     <p class="education-description">Supervised by Dr. Manish Verma on advancing stochastic optimization leveraging hierarchical reinforcement learning.</p>
   </div>
@@ -91,6 +91,36 @@ latest_posts:
       <li><strong>Autonomous Inventory System</strong> - Developed scalable inventory reordering system for 15 hypermarkets with +8,000 SKUs</li>
       <li><strong>Automated Shopping Experience</strong> - Contributed to a $100M funded project for a fully automated shopping experience (Low-Cost Amazon Go), implementing indoor location tracking in collaboration with Rocket Internet</li>
       <li><strong>Operational Analytics</strong> - Established real-time operational KPIs with automated reporting systems, ensuring data accuracy and driving strategic decisions</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-container">
+  <h3 class="section-title">Education Details</h3>
+
+  <div class="education-item">
+    <h4>M.Sc. Computer Science</h4>
+    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
+    <ul class="education-details">
+      <li>Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.</li>
+      <li>Member of <a href="https://www.degrootefinance.ca/">Degroote finance and investment council (DFIC Club)</a> - Quantitative Finance Department.</li>
+      <li>Completed the <a href="https://vectorinstitute.ai/">Vector Institute</a> Deep Learning and Reinforcement Learning Summer School.</li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <h4>MBA, Finance</h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <ul class="education-details">
+      <li>Awards: Merit-based Admission by the Office of Exceptional Talents.</li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <h4>B.Sc. System Engineering</h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <ul class="education-details">
+      <li>Awards: Member of National Elite Foundation (INEF).</li>
     </ul>
   </div>
 </div>
