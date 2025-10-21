@@ -127,8 +127,8 @@ latest_posts:
 
 <style>
 body {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
