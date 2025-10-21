@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -49,6 +42,15 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-titled-enhanced-pareto-optimality-with-reinforcement-learning-approach-has-been-accepted-for-presentation-at-the-cors-2025-conference",
           title: 'Our paper titled “Enhanced Pareto Optimality with Reinforcement Learning Approach” has been accepted...',
+          description: "",
+          section: "News",},{id: "news-first-dsperse-paper-and-framwork-is-out",
+          title: 'First DSperse Paper and framwork is out!',
+          description: "",
+          section: "News",},{id: "news-first-dsperse-paper-and-framwork-is-out",
+          title: 'First DSperse Paper and framwork is out!',
+          description: "",
+          section: "News",},{id: "news-first-dsperse-paper-and-framwork-is-out",
+          title: 'First DSperse Paper and framwork is out!',
           description: "",
           section: "News",},{id: "projects-local-quantized-deepseek-r1-the-671b-parameter-model",
           title: 'Local Quantized DeepSeek-R1 the 671B-Parameter Model',
