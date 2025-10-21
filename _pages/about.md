@@ -46,21 +46,25 @@ latest_posts:
   <h3 class="section-title">Education</h3>
 
   <div class="education-item">
-    <h4>M.Sc. Computer Science</h4>
+    <h4><strong>M.Sc. Computer Science</strong></h4>
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
-    <p class="education-description">Supervised by Dr. Manish Verma on advancing stochastic optimization leveraging hierarchical reinforcement learning.</p>
+    <ul class="education-details">
+      <li><strong>Thesis:</strong> <span style="color: #666;">Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy</span></li>
+      <li><strong>Half member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
+      <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
+    </ul>
   </div>
 
   <div class="education-item">
-    <h4>MBA, Finance</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University of Technology</a></p>
-    <p class="education-description">Direct admission with academic ranking. Merit-based admission by the Office of Exceptional Talents.</p>
+    <h4><strong>MBA, Finance</strong></h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <p class="education-description" style="color: #666;"><strong>Direct admission with academic ranking.</strong> Merit-based admission by the Office of Exceptional Talents.</p>
   </div>
 
   <div class="education-item">
-    <h4>B.Sc. System Engineering</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University of Technology</a></p>
-    <p class="education-description">Member of National Elite Foundation (INEF).</p>
+    <h4><strong>B.Sc. System Engineering</strong></h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <p class="education-description" style="color: #666;"><strong>Member of National Elite Foundation (INEF)</strong></p>
   </div>
 </div>
   </div>
@@ -100,36 +104,6 @@ latest_posts:
 </div>
 
 <div class="section-container">
-  <h3 class="section-title">Education Details</h3>
-
-  <div class="education-item">
-    <h4>M.Sc. Computer Science</h4>
-    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
-    <ul class="education-details">
-      <li>Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.</li>
-      <li>Member of <a href="https://www.degrootefinance.ca/">Degroote finance and investment council (DFIC Club)</a> - Quantitative Finance Department.</li>
-      <li>Completed the <a href="https://vectorinstitute.ai/">Vector Institute</a> Deep Learning and Reinforcement Learning Summer School.</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h4>MBA, Finance</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <ul class="education-details">
-      <li>Awards: Merit-based Admission by the Office of Exceptional Talents.</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h4>B.Sc. System Engineering</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <ul class="education-details">
-      <li>Awards: Member of National Elite Foundation (INEF).</li>
-    </ul>
-  </div>
-</div>
-
-<div class="section-container">
   <h3 class="section-title">Skills</h3>
   <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36" alt="Python" /></a>
@@ -154,7 +128,7 @@ latest_posts:
 <style>
 .two-column-layout {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   align-items: flex-start;
 }
 
@@ -163,12 +137,13 @@ latest_posts:
 }
 
 .profile img {
-  transform: scale(1.3);
+  transform: scale(1.1);
   transform-origin: center;
+  margin-bottom: 20px;
 }
 
 .section-container {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .section-title {
