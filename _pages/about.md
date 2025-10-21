@@ -6,8 +6,8 @@ subtitle:
 
 profile:
   align: left
-  image: prof_pic1.jpg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
@@ -103,8 +103,8 @@ latest_posts:
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
     <ul class="education-details">
       <li>Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.</li>
-      <li>Member of <a href="https://www.degrootefinance.ca/">Degroote finance and investment council (DFIC Club)</a> - Quantitative Finance Department.</li>
-      <li>Completed the <a href="https://vectorinstitute.ai/">Vector Institute</a> Deep Learning and Reinforcement Learning Summer School.</li>
+      <li>Half member of <a href="https://www.degrootefinance.ca/quant-group">DFIC Quant Group</a> - Quantitative Finance Department.</li>
+      <li>Participated in RLDL Vector Summer School at <a href="https://vectorinstitute.ai/">Vector Institute</a>.</li>
     </ul>
   </div>
 
@@ -147,7 +147,7 @@ latest_posts:
 
 <style>
 .section-container {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .section-title {
