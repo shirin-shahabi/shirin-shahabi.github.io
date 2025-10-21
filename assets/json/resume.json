@@ -135,9 +135,7 @@
       "endDate": "2022-12",
       "gpa": "3.8/4.0",
       "location": "Tehran, Iran",
-      "highlights": [
-        "Awards: Merit-based Admission by the Office of Exceptional Talents."
-      ]
+      "highlights": ["Awards: Merit-based Admission by the Office of Exceptional Talents."]
     },
     {
       "institution": "Sharif University",
@@ -147,9 +145,7 @@
       "endDate": "2021-10",
       "gpa": "3.7/4.0",
       "location": "Tehran, Iran",
-      "highlights": [
-        "Awards: Member of National Elite Foundation (INEF)."
-      ]
+      "highlights": ["Awards: Member of National Elite Foundation (INEF)."]
     }
   ],
   "skills": [

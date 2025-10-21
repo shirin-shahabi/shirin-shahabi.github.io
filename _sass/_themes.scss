@@ -5,11 +5,11 @@
 @use "sass:color";
 
 // Define new color variables based on the image
-$navy-blue-dark: #001333;  // The dark blue from your image
+$navy-blue-dark: #001333; // The dark blue from your image
 $navy-blue-darker: #000c24; // Even darker variant
 $white-color: #ffffff;
 $light-grey: #e0e0e0;
-$accent-blue: #3498db;  // A complementary blue for accents
+$accent-blue: #3498db; // A complementary blue for accents
 
 :root {
   color-scheme: light;
@@ -17,16 +17,16 @@ $accent-blue: #3498db;  // A complementary blue for accents
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$navy-blue-dark};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$navy-blue-dark};  // Changed to match your theme
-  --global-hover-color: #{$accent-blue};  // Changed to a complementary blue
+  --global-theme-color: #{$navy-blue-dark}; // Changed to match your theme
+  --global-hover-color: #{$accent-blue}; // Changed to a complementary blue
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$navy-blue-dark};  // Changed to match theme
+  --global-footer-bg-color: #{$navy-blue-dark}; // Changed to match theme
   --global-footer-text-color: #{$light-grey};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$accent-blue};  // Changed accent color
+  --global-highlight-color: #{$accent-blue}; // Changed accent color
   --global-back-to-top-bg-color: rgba(
     #{color.channel($navy-blue-dark, "red", $space: rgb)},
     #{color.channel($navy-blue-dark, "green", $space: rgb)},
@@ -86,11 +86,11 @@ $accent-blue: #3498db;  // A complementary blue for accents
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$navy-blue-dark};  // Changed to match your image
-  --global-code-bg-color: #{$navy-blue-darker};  // Darker variant for code blocks
-  --global-text-color: #{$white-color};  // White text on dark background
+  --global-bg-color: #{$navy-blue-dark}; // Changed to match your image
+  --global-code-bg-color: #{$navy-blue-darker}; // Darker variant for code blocks
+  --global-text-color: #{$white-color}; // White text on dark background
   --global-text-color-light: #{$light-grey};
-  --global-theme-color: #{$accent-blue};  // Accent color for dark mode
+  --global-theme-color: #{$accent-blue}; // Accent color for dark mode
   --global-hover-color: #{$white-color};
   --global-hover-text-color: #{$navy-blue-dark};
   --global-footer-bg-color: #{$navy-blue-darker};

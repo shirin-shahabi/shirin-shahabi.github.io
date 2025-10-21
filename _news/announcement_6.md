@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-First [DSperse](https://arxiv.org/abs/2508.06972) Paper and framwork is out! 
+First [DSperse](https://arxiv.org/abs/2508.06972) Paper and framwork is out!

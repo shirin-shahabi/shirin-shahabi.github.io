@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
-
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,7 +25,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 2 # leave blank to include all the blog posts
 ---
-
 
 <div class="section-container">
   <h2>Hi! I'm Shirin</h2>
