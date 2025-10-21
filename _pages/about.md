@@ -26,7 +26,9 @@ latest_posts:
   limit: 2 # leave blank to include all the blog posts
 ---
 
-<div class="section-container">
+<div class="two-column-layout">
+  <div class="column">
+    <div class="section-container">
   <h2><strong>Shirin Shahabi</strong></h2>
   <p>A Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!</p>
 
@@ -61,9 +63,11 @@ latest_posts:
     <p class="education-description">Member of National Elite Foundation (INEF).</p>
   </div>
 </div>
+  </div>
 
-<div class="section-container">
-  <h3 class="section-title">Featured Projects</h3>
+  <div class="column">
+    <div class="section-container">
+      <h3 class="section-title">Featured Projects</h3>
 
   <div class="project-item">
     <h4><a href="https://github.com/inference-labs-inc">Inference Labs</a> - Verifiable AI & LLMs</h4>
@@ -144,20 +148,27 @@ latest_posts:
   <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="36" height="36" alt="Kubernetes" /></a>
   </p>
 </div>
+  </div>
+</div>
 
 <style>
-/* Two-column layout */
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.two-column-layout {
+  display: flex;
   gap: 40px;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 20px;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+}
+
+.profile img {
+  transform: scale(1.3);
+  transform-origin: center;
 }
 
 .section-container {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section-title {
