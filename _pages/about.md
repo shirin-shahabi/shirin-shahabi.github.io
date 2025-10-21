@@ -9,7 +9,7 @@ profile:
   image: prof_pic1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AI Engineer|</p>
+    <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
 
 
@@ -40,6 +40,28 @@ latest_posts:
   </ul>
 
   <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
+</div>
+
+<div class="section-container">
+  <h3 class="section-title">Education</h3>
+
+  <div class="education-item">
+    <h4>M.Sc. Computational Science</h4>
+    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
+    <p class="education-description">Supervised by Dr. Manish Verma on advancing stochastic optimization leveraging hierarchical reinforcement learning.</p>
+  </div>
+
+  <div class="education-item">
+    <h4>MBA, Finance</h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University of Technology</a></p>
+    <p class="education-description">Direct admission with academic ranking. Merit-based admission by the Office of Exceptional Talents.</p>
+  </div>
+
+  <div class="education-item">
+    <h4>B.Sc. System Engineering</h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University of Technology</a></p>
+    <p class="education-description">Member of National Elite Foundation (INEF).</p>
+  </div>
 </div>
 
 <div class="section-container">
@@ -95,47 +117,6 @@ latest_posts:
   </p>
 </div>
 
-<div class="section-container">
-  <h3 class="section-title">Education</h3>
-
-  <div class="education-item">
-    <h4>M.Sc. Computer Science</h4>
-    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
-    <ul class="education-details">
-      <li>Thesis: Multi-Objective Network Weight Optimization through Hierarchical Reinforcement Learning Strategy.</li>
-      <li>Member of <a href="https://www.degrootefinance.ca/">Degroote finance and investment council (DFIC Club)</a> - Quantitative Finance Department.</li>
-      <li>Completed the <a href="https://vectorinstitute.ai/">Vector Institute</a> Deep Learning and Reinforcement Learning Summer School.</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h4>MBA, Finance</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <ul class="education-details">
-      <li>Awards: Merit-based Admission by the Office of Exceptional Talents.</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h4>B.Sc. Industrial Engineering</h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <ul class="education-details">
-      <li>Awards: Member of National Elite Foundation (INEF).</li>
-    </ul>
-  </div>
-</div>
-
-<details>
-  <summary style="background-color: #001333; color: white; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold;"> > KNOW MORE</summary>
-  
-  <div style="padding: 15px; border: 1px solid #ddd; border-top: none; border-radius: 0 0 5px 5px;">
-    <h3>About Me</h3>
-
-   <p>I enjoy 📰 Tech News, 📈 Business Review, 🎬 Movies, ♟️ Chess, 🎨 Pottery, 🥾 Hiking, 🔗 Blockchain technology, 👥 Meeting new people and 🌎 experiencing new cultures!</p>
-
-  </div>
-</details>
-
 <style>
 .section-container {
   margin-bottom: 30px;
@@ -189,12 +170,10 @@ latest_posts:
   margin-bottom: 8px;
 }
 
-.education-details {
-  padding-left: 20px;
-  margin-bottom: 5px;
-}
-
-.education-details li {
-  margin-bottom: 5px;
+.education-description {
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 </style>
