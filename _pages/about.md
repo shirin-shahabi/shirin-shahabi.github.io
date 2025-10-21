@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 <div class="section-container">
-  <h2>Hi! I'm Shirin</h2>
+  <h2><strong>Shirin Shahabi</strong></h2>
   <p>A Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!</p>
 
   <ul class="feature-list">
