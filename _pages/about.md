@@ -26,9 +26,7 @@ latest_posts:
   limit: 2 # leave blank to include all the blog posts
 ---
 
-<div class="two-column-layout">
-  <div class="column">
-    <div class="section-container">
+<div class="section-container">
   <h2><strong>Shirin Shahabi</strong></h2>
   <p>A Machine Learning Researcher & Engineer based in Canada. I have been working on Reinforcement Learning applications for the past 4 years, currently I am more focused on Post Training Optimization and Validation!</p>
 
@@ -66,12 +64,10 @@ latest_posts:
     <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
     <p class="education-description" style="color: #666;"><strong>Member of National Elite Foundation (INEF)</strong></p>
   </div>
-</div>
-  </div>
+    </div>
 
-  <div class="column">
-    <div class="section-container">
-      <h3 class="section-title">Featured Projects</h3>
+<div class="section-container">
+  <h3 class="section-title">Featured Projects</h3>
 
   <div class="project-item">
     <h4><a href="https://github.com/inference-labs-inc">Inference Labs</a> - Verifiable AI & LLMs</h4>
@@ -122,96 +118,14 @@ latest_posts:
   <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="36" height="36" alt="Kubernetes" /></a>
   </p>
 </div>
-  </div>
-</div>
 
 <style>
 body {
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.container, .container-fluid {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.two-column-layout {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-}
-
-.column {
-  flex: 1;
-}
-
-.profile img {
-  transform: scale(1.1);
-  transform-origin: center;
-  margin-bottom: 20px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
 }
 
 .section-container {
-  margin-bottom: 15px;
-}
-
-.section-title {
-  margin-bottom: 15px;
-  font-weight: bold;
-  border-bottom: 2px solid #001333;
-  padding-bottom: 5px;
-}
-
-.feature-list {
-  padding-left: 20px;
-  margin-bottom: 15px;
-}
-
-.feature-list li {
-  margin-bottom: 5px;
-}
-
-.project-item {
-  margin-bottom: 20px;
-}
-
-.project-item h4 {
   margin-bottom: 8px;
-  font-weight: bold;
-}
-
-.project-details {
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
-.project-details li {
-  margin-bottom: 5px;
-}
-
-.education-item {
-  margin-bottom: 20px;
-}
-
-.education-item h4 {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.education-institution {
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
-.education-description {
-  margin-bottom: 15px;
-  color: #666;
-  font-size: 0.9em;
-  line-height: 1.4;
 }
 </style>

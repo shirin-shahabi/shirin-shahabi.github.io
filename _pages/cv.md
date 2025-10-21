@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
+nonav: false
 nav_order: 5
 cv_pdf: ShirinShahabi.pdf # you can also use external links here
 toc:
