@@ -52,7 +52,7 @@ latest_posts:
     <h4><strong>M.Sc. Computer Science</strong></h4>
     <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
     <ul class="education-details">
-      <li><strong>Thesis:</strong> <span style="color: #666;">Multi-Objective Network Stochastic Weight Optimization leveraging hierarchical reinforcement learning.</span></li>
+      <li><strong>Thesis:</strong> <span style="color: #666;">Stochastic Weight Optimization leveraging hierarchical reinforcement learning in Multi-objective network.</span></li>
       <li><strong>Member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
       <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
     </ul>
@@ -127,5 +127,9 @@ latest_posts:
 <style>
 .profile img {
   margin-right: 2cm !important;
+}
+
+body {
+  font-size: 1.3em !important;
 }
 </style>
