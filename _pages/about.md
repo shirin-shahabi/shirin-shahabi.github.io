@@ -40,36 +40,10 @@ latest_posts:
     <li>Distributed inference</li>
   </ul>
 
-  <p>I am always looking to connect with people and discuss collaborations, that is the root how knowledge form and transfer, Let's have a chat!</p>
+  <p>I am always looking to connect with people and discuss collaborations—that is the root of how knowledge forms and transfers. Let's have a chat!</p>
 </div>
 
 <div style="margin-top: 60px;"></div>
-
-<div class="section-container">
-  <h3 class="section-title">Education</h3>
-
-  <div class="education-item">
-    <h4><strong>M.Sc. Computer Science</strong></h4>
-    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
-    <ul class="education-details">
-      <li><strong>Thesis:</strong> <span style="color: #666;">Stochastic Weight Optimization leveraging hierarchical reinforcement learning in Multi-objective network.</span></li>
-      <li><strong>Member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
-      <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h4><strong>MBA, Finance</strong></h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <p class="education-description" style="color: #666;"><strong>Direct admission with academic ranking.</strong> Merit-based admission by the Office of Exceptional Talents.</p>
-  </div>
-
-  <div class="education-item">
-    <h4><strong>B.Sc. System Engineering</strong></h4>
-    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
-    <p class="education-description" style="color: #666;"><strong>Member of National Elite Foundation (INEF)</strong></p>
-  </div>
-    </div>
 
 <div class="section-container">
   <h3 class="section-title">Skills</h3>
@@ -99,6 +73,8 @@ latest_posts:
     <ul class="project-details">
       <li><strong>Distributed Proving Framework</strong> - Contributed as a core researcher to DSperse - open-source framework for distributed, verifiable inference. [<a href="https://arxiv.org/abs/2508.06972">paper</a>] [<a href="https://github.com/inference-labs-inc/dsperse">sourcecode</a>]</li>
       <li><strong>JSTProve Integration</strong> - Contributed to JSTProve [<a href="https://arxiv.org/abs/2510.21024">paper</a>] development and integration with DSperse, a specialized zkML toolkit built on Polyhedra Network's Expander backend to enable AI developers and ML engineers to generate and verify proofs of AI inference.</li>
+      <li><strong>AI Browser Agent Security</strong> - Devised and implemented Prompt Injection detection and zk-proxy systems for <strong>AI browser agents</strong>, leveraging DSperse masking for secure LLM source verification; instead of <a href="https://ai.meta.com/blog/practical-ai-agent-security/">Prompt Guardlines</a>.</li>
+      <li><strong>Commercial Vision Model</strong> - Developed distributed, verified inference for an external <strong>in-production, commercial Vision aviation model</strong> using DSperse and JSTProve preserving <strong>Inference fidelity</strong>, served as auditing and compliance tool.</li>
       <li><strong>Quantization and Post-training</strong> - Contributed to an open-source ZK toolkit for quantization and post-training methods.</li>
       <li><strong>Verifiable AI Agent</strong> - Developed the first verifiable Doom agent, reducing overhead from 1000x to 8x.</li>
       <li><strong>Modular Proving Framework</strong> - Designed a scalable proof-of-inference framework leveraging agentic testing and probabilistic proofs, with no computational overhead, using a JIT design pattern and caching system.</li>
@@ -124,6 +100,34 @@ latest_posts:
     </ul>
   </div>
 </div>
+
+<div class="section-container">
+  <h3 class="section-title">Education</h3>
+
+  <div class="education-item">
+    <h4><strong>M.Sc. Computer Science</strong></h4>
+    <p class="education-institution"><a href="https://www.mcmaster.ca/">McMaster University</a></p>
+    <ul class="education-details">
+      <li><strong>Thesis:</strong> <span style="color: #666;">Stochastic Weight Optimization leveraging hierarchical reinforcement learning in Multi-objective network.</span></li>
+      <li><strong>Member of</strong> <a href="https://www.degrootefinance.ca/quant-group"><strong>DFIC Quant Group</strong></a> <span style="color: #666;">- Quantitative Finance Department</span></li>
+      <li><strong>Participated in</strong> <span style="color: #666;">RLDL Vector Summer School at</span> <a href="https://vectorinstitute.ai/"><strong>Vector Institute</strong></a></li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <h4><strong>MBA, Finance</strong></h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <p class="education-description" style="color: #666;"><strong>Direct admission with academic ranking.</strong> Merit-based admission by the Office of Exceptional Talents.</p>
+  </div>
+
+  <div class="education-item">
+    <h4><strong>B.Sc. System Engineering</strong></h4>
+    <p class="education-institution"><a href="https://en.sharif.edu/">Sharif University</a></p>
+    <p class="education-description" style="color: #666;"><strong>Member of National Elite Foundation (INEF)</strong></p>
+  </div>
+    </div>
+
+
 
 <style>
 .profile img {
