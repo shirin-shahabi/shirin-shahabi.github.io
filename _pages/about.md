@@ -39,6 +39,8 @@ latest_posts:
     <li>Reinforcement learning and Finetuning</li>
     <li>Distributed inference</li>
   </ul>
+
+  <p>I am always looking to connect with people and discuss potential collaborations(the root how knowledge form and transfer) , Let's have a chat!</p>
 </div>
 
 <div style="margin-top: 60px;"></div>
