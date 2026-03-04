@@ -55,4 +55,8 @@ linkedin_username: shirin-shahabinejad # your LinkedIn user name
 medium_username: shahas8 # your Medium username
 discord_id: shirin3662 # your discord id
 scholar_userid: DKjo_iMAAAAJ # your Google Scholar ID
+substack:
+  logo: https://cdn.simpleicons.org/substack
+  title: Substack
+  url: https://substack.com/@shirinshahabi
 email: shirin.shahabinejad@gmail.com # your email address
