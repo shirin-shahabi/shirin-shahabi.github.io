@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-DSperse is now patented: distributed verifiable inference.
+[DSperse](https://arxiv.org/abs/2508.06972) is now patented — distributed verifiable inference!

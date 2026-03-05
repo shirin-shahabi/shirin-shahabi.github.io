@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published our SOTA LLM agentic evaluation framework: https://arxiv.org/abs/2601.13545
+Published our SOTA LLM agentic evaluation framework — [TruthTensor](https://arxiv.org/abs/2601.13545) is live!

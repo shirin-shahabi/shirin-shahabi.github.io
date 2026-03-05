@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Developed ZKProxy, a universal verification protocol that wraps any guardrail engine: https://github.com/inference-labs-inc/dsperse/blob/openclaw/openclaw_demo/README.md
+Developed [ZKProxy](https://github.com/inference-labs-inc/dsperse/blob/openclaw/openclaw_demo/README.md) — a universal verification protocol that wraps any guardrail engine.
