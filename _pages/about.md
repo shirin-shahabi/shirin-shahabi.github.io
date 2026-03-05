@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # show top 5, scrollable for rest
+  limit: 5 # initially visible; all render, scroll for rest
 
 latest_posts:
   enabled: true
@@ -103,7 +103,7 @@ latest_posts:
 
 <style>
 .profile img {
-  margin-right: 1mm !important;
+  margin-right: 3cm !important;
 }
 
 body {
