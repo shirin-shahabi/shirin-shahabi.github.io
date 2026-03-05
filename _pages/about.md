@@ -74,23 +74,23 @@ latest_posts:
   <h3 class="section-title" style="font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 0.95em; color: var(--global-text-color-light);">~/interests</h3>
   <div class="dir-tree">
 <pre>
-<span class="tree-current">├── <strong>2027?/</strong>  inference, RL simulators, edge &amp; on-device verification, agent protocols, AI governance</span>
-<span class="tree-current">├── <strong>2026/</strong>   gen AI post-training · inference serving verification</span>
-<span class="tree-current">├── <strong>2025/</strong>   verification, RL, agents</span></pre>
+<span class="tree-current">├── <strong>2027?/</strong>  Local Inference, RL simulators, edge &amp on-device verification</span>
+<span class="tree-current">├── <strong>2026/</strong>  inference serving,  agent security protocols, scalable reliable agentic system, diffusion</span>
+<span class="tree-current">├── <strong>2025/</strong>   verification, RL, Posttraining, World models</span></pre>
     <details class="tree-archive">
       <summary><span style="color:#8b949e;">▸ earlier branches (2007–2024)</span></summary>
 <pre>
-├── <strong>2024/</strong>   risk assessment &amp; corporate finance
-├── <strong>2023/</strong>   cryptography
-├── <strong>2022/</strong>   autonomous driving
-├── <strong>2021/</strong>   reinforcement learning
-├── <strong>2020/</strong>   first real job in data science
+├── <strong>2024/</strong>   Blockchain, Gen AI and Agentic risk assessment
+├── <strong>2023/</strong>   cryptography, autonomous driving, Hierarchical RL simulation
+├── <strong>2022/</strong>   Data Pipeline and Blockchain Eng, crypto services(L2)
+├── <strong>2021/</strong>   reinforcement learning, Network and Graphs
+├── <strong>2020/</strong>   first real job in data science, Indoor location, Platform Data science
 ├── <strong>2019/</strong>   networks, supply chain, drone transport
 ├── <strong>2018/</strong>   business &amp; system design, platforms
 ├── <strong>2017/</strong>   auto trading, crypto
 ├── <strong>2016/</strong>   robotics
 ├── <strong>2015/</strong>   math olympiad
-├── <strong>2011/</strong>   novels, books, literature
+├── <strong>2011/</strong>   sci-fi novels, books, literature
 ├── <strong>2010/</strong>   aerospace &amp; expeditions
 ├── <strong>2009/</strong>   playing chess
 ├── <strong>2008/</strong>   computers
