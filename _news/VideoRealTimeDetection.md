@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Reached real-time video detection — YOLO-based [sports detection verification](https://github.com/inference-labs-inc/dsperse) and edge-device [Tesla detection verification](https://github.com/inference-labs-inc/dsperse).
+Reached real-time video detection — YOLO-based [sports detection verification](https://x.com/inference_labs/status/2019794506019971316) and edge-device [Tesla detection verification](https://x.com/inference_labs/status/2003940381893996787).
+

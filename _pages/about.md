@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AI Researcher</p>
+    <p>AI Researcher|</p>
     <p>Toronto, Canada</p>
     <p><a href="/assets/pdf/ShirinShahabi.pdf" class="resume-btn" download>📄 Resume</a></p>
 
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: # leave blank to show all news
+  limit: 5 # show top 5, scrollable for rest
 
 latest_posts:
   enabled: true
@@ -61,7 +61,7 @@ latest_posts:
   <a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="36" height="36" alt="Google Cloud" /></a>
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="36" height="36" alt="AWS" /></a>
   <a href="https://vllm.ai/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/vllm-color.png" width="36" height="36" alt="vLLM" /></a>
-  <a href="https://sgl-project.github.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png" width="36" height="36" alt="SGLang" /></a>
+  <a href="https://sgl-project.github.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.svg" width="36" height="36" alt="SGLang" /></a>
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="36" height="36" alt="Docker" /></a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="36" height="36" alt="Git" /></a>
   <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="36" height="36" alt="Kubernetes" /></a>
@@ -71,7 +71,7 @@ latest_posts:
 <div style="margin-top: 60px;"></div>
 
 <div class="section-container">
-  <h3 class="section-title" style="font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 0.95em; color: #8b949e;">~/interests</h3>
+  <h3 class="section-title" style="font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 0.95em; color: var(--global-text-color-light);">~/interests</h3>
   <div class="dir-tree">
 <pre>
 <span class="tree-current">├── <strong>2027?/</strong>  inference, RL simulators, edge &amp; on-device verification, agent protocols, AI governance</span>
@@ -103,7 +103,7 @@ latest_posts:
 
 <style>
 .profile img {
-  margin-right: 2cm !important;
+  margin-right: 1mm !important;
 }
 
 body {
@@ -124,29 +124,33 @@ body {
   background: rgba(88,166,255,0.12);
 }
 
-/* GitHub-style directory tree */
+/* Directory tree — theme-aware */
 .dir-tree {
-  background: #0d1117;
-  border: 1px solid #30363d;
+  background: var(--global-code-bg-color);
+  border: 1px solid var(--global-divider-color);
   border-radius: 6px;
   padding: 1rem 1.2rem;
   max-height: 300px;
   overflow-y: auto;
+  margin-bottom: 60px;
 }
 .dir-tree pre {
   margin: 0;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.78em;
   line-height: 1.65;
-  color: #8b949e;
+  color: var(--global-text-color-light);
   white-space: pre-wrap;
   background: transparent;
 }
 .dir-tree strong {
-  color: #58a6ff;
+  color: var(--global-theme-color);
+}
+html[data-theme="dark"] .dir-tree strong {
+  color: var(--global-hover-color);
 }
 .tree-current {
-  color: #c9d1d9;
+  color: var(--global-text-color);
 }
 .tree-archive summary {
   cursor: pointer;
@@ -154,9 +158,10 @@ body {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.78em;
   padding: 0.2rem 0;
+  color: var(--global-text-color-light);
 }
 .tree-archive summary::-webkit-details-marker { display: none; }
-.tree-archive[open] summary span { color: #58a6ff !important; }
+.tree-archive[open] summary span { color: var(--global-theme-color) !important; }
 .tree-archive[open] summary span::before { content: "▾ "; }
 .tree-archive summary span::before { content: ""; }
 </style>
