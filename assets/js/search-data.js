@@ -55,6 +55,18 @@ ninja.data = [{
           section: "News",},{id: "news-jstprove-paper-is-live",
           title: 'JSTprove  Paper is Live!',
           description: "",
+          section: "News",},{id: "news-reached-real-time-video-detection-yolo-based-sports-detection-verification-spoertdetection-mp4-and-edge-device-tesla-detection-verification-edgedeer-mp4",
+          title: 'Reached real-time video detection: YOLO-based sports detection verification (@spoertdetection.mp4) and edge-device Tesla detection...',
+          description: "",
+          section: "News",},{id: "news-dsperse-is-now-patented-distributed-verifiable-inference",
+          title: 'DSperse is now patented: distributed verifiable inference.',
+          description: "",
+          section: "News",},{id: "news-published-our-sota-llm-agentic-evaluation-framework-https-arxiv-org-abs-2601-13545",
+          title: 'Published our SOTA LLM agentic evaluation framework: https://arxiv.org/abs/2601.13545',
+          description: "",
+          section: "News",},{id: "news-developed-zkproxy-a-universal-verification-protocol-that-wraps-any-guardrail-engine-https-github-com-inference-labs-inc-dsperse-blob-openclaw-openclaw-demo-readme-md",
+          title: 'Developed ZKProxy, a universal verification protocol that wraps any guardrail engine: https://github.com/inference-labs-inc/dsperse/blob/openclaw/openclaw_demo/README.md',
+          description: "",
           section: "News",},{id: "projects-local-quantized-deepseek-r1-the-671b-parameter-model",
           title: 'Local Quantized DeepSeek-R1 the 671B-Parameter Model',
           description: "Dynamic Quantization Approach for Large Language Models",
@@ -106,6 +118,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=DKjo_iMAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-substack',
+        title: 'Substack',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://substack.com/@shirinshahabi", "_blank");
         },
       },{
         id: 'social-email',
